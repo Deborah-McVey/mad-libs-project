@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: PT+Sans, cursive;
+}
+
+body {
+    background-color: rgb(207, 231, 231);
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;  
+}
+
+h2 {
+    font-size: 3rem;  
+}
+
+h3 {
+    font-size: 1.5rem;  
+}
+
+p {
+    font-size: 1rem; 
+    font-weight: normal; 
+}
+
+.container {
+    background-color: rgb(152, 181, 236);  
+    color: black;
+    padding: 2em;
+    border-radius: 2em;
+    width: 85%;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+.submit {
+    background-color: rgb(223, 226, 24);
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-top: 1em;
+    transition: 0.4s ease;
+}
+
+.submit:hover {
+    background-color: rgb(47, 180, 197);
+    color: rgb(248, 245, 245);
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+form {
+    margin: 2em auto;
+    width: 20em;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(24, 6, 65);
+    font-size: large;
+    margin-bottom: 1.5em;
+    outline: none;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(27, 127, 131);
+    background-color: azure;
+    height: 2em;
+}
+
+input:focus {
+    transform: scale(1.1);
+    border: 2px solid red;
+}
+
+.mad-lib {
+    width: 20em;
+    margin: 2em auto;
+}
+
+b {
+    color: rgb(37, 7, 7);
+}
+
+
